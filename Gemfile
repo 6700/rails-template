@@ -9,6 +9,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails'
 gem 'underscore-rails'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'haml-rails'
 gem 'simple_form'
