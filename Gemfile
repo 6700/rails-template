@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'underscore-rails'
 
 gem 'haml-rails'
+gem 'simple_form'
 
 group :development, :test do
   gem 'pry-rails'
