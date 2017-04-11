@@ -16,6 +16,7 @@ gem 'simple_form'
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'rubocop', '0.47.1', require: false
 end
 
 group :development do
