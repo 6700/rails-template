@@ -14,6 +14,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'haml-rails'
 gem 'simple_form'
 
+gem 'devise'
+
 group :development, :test do
   gem 'pry-rails'
   gem 'rubocop', '0.47.1', require: false
