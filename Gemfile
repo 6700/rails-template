@@ -18,7 +18,7 @@ gem 'devise'
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'rubocop', '0.47.1', require: false
+  gem 'rubocop', '>= 0.49.0'
 end
 
 group :development do
@@ -26,3 +26,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+gem 'loofah', '>=  2.2.1'
+gem 'nokogiri', '>= 1.8.2'
+gem 'rails-html-sanitizer', '>= 1.0.4'
+gem 'sprockets', '>= 2.12.5, < 3.0.0'
